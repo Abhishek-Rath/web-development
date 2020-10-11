@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            border: 3px solid purple;
+            margin: 33px auto;
+        }
+        .item{
+            border: 2px solid chocolate;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #d2811c1c;
+    
+        }
+        #laptops {
+            float: right;
+            width: 48%;
+        }
+        #mobiles {
+            float: right;
+            width: 48%;
+        }
+        #stationary {
+            /* float: right;
+            width: 48%; */
+            clear:right;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to my store</h2>
+        <div id="laptops" class="item">
+            <h3>Laptops</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iure reprehenderit temporibus rem, dolore sequi ipsa magni unde pariatur rerum, nulla facilis culpa, ab animi est aliquam ex quo inventore vero odio. Optio, cupiditate quae?</p>
+        </div>
+
+        <div id="mobiles" class="item">
+            <h3>Mobiles</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laborum ratione exercitationem amet sapiente consequuntur dolorum ea minus explicabo aspernatur possimus adipisci veritatis error eum cum rem perferendis porro, ipsa molestiae qui inventore tempora cumque.<p> 
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates voluptatem illum ex, soluta optio quaerat accusamus beatae, doloribus incidunt earum eaque delectus totam aperiam quod, laboriosam iure nulla quo facere commodi culpa est doloremque quisquam?</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
