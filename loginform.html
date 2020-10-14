@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .imgcontainer {
+            display: block;
+            width: 21%;
+            margin: auto;
+        }
+
+        form {
+            border: 6px solid #f1f1f1;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 97%;
+            display: block;
+            margin: 12px auto;
+
+            font-size: 23px;
+        }
+
+        .btn {
+            padding: 7px 126px;
+            margin: 8px 13px;
+            width: 97%;
+            font-size: 18px;
+            background-color: #c197e8;
+            color: #13110d;
+            border: 2px solid #8a8080;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            opacity: 0.91;
+        }
+
+        label {
+            margin: 12px;
+        }
+
+        .cancelbtn {
+            margin: 16px 18px;
+            padding: 7px 56px;
+            background-color: #fb3305d9;
+            border-radius: 3px;
+            width: auto;
+        }
+
+        span {
+            float: right;
+            padding: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Login Form</h2>
+    <form>
+        <!-- div for containing image -->
+        <div class="imgcontainer">
+            <img src="img/download.png" alt="user_image">
+        </div>
+        <!-- div for containing username and password  -->
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" name="uname" id="uname" placeholder="Enter your name" required>
+
+            <p></p>
+
+            <label for="pswd"><b>Password</b></label>
+            <input type="password" id="pswd" placeholder="Enter your password" required>
+
+            <p></p>
+
+            <button class="btn">Submit</button>
+            <p></p>
+
+            <label><input type="checkbox" checked="checked">Remember me </label>
+
+        </div>
+        <br>
+
+        <!--div for containing cancel and forgot password -->
+        <div class="secondary" style="background-color: #e6dcdc;">
+            <button class="cancelbtn">Cancel</button>
+            <span>Forgot <a href="#">password?</a></span>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
