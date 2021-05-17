@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+  margin: 0;
+  width: 100vw;
+  height:100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items:center;
+  text-align:center;
+  justify-content:center;
+  overflow:hidden;
+  font-family: Roboto Mono, monospace;  
+  /* background-color: blanchedalmond; */
+}
+
+.container {
+  
+  background: #ecf0f3;
+  width: 300px
+  /* height: 70%; */
+  border: 1px solid #abd0eb;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  box-sizing: border-box;  
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+}
+.logo img{
+  width: 111px;
+  height:90px;
+  margin:auto;
+  border-radius: 62%;
+  box-sizing: border-box; 
+  box-shadow: 7px 7px 10x #cbced1, -7px -7x 10px #fff;
+}
+
+.name{
+  font-size: 50px;
+  color: rgb(26, 145, 218);
+}
+
+.inputs{
+  padding: 20px;
+}
+.inputs input{
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ecf0f3;
+  border-radius: 50px;
+  padding-left: 10px;
+  height: 45px;
+  width: 300px;
+  font-size: 20px;
+}
+
+button{
+  width: 260px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color:  rgb(26, 145, 218);
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px #fff;
+  cursor: pointer;
+  /* height: 40px; */
+}
